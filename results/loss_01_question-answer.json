@@ -1,0 +1,7 @@
+{
+    "scores": {
+        "accuracy_top1": 0.2,
+        "accuracy_top2": 0.4,
+        "accuracy_top3": 0.4
+    }
+}
