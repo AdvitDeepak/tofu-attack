@@ -1,0 +1,42 @@
+{
+    "Can you provide the title of a book written by Yevgeny Grimkov?": {
+        "lora_grad_mag": 895.3363037109375,
+        "non_lora_mag": 9626.53125
+    },
+    "In which city was Yevgeny Grimkov born?": {
+        "lora_grad_mag": 612.5869293212891,
+        "non_lora_mag": 6822.21484375
+    },
+    "What were the professions of Luis Marcelo Garcia's parents?": {
+        "lora_grad_mag": 631.8615264892578,
+        "non_lora_mag": 7070.0546875
+    },
+    "Can you describe the writing style of Linda Harrison?": {
+        "lora_grad_mag": 1326.2813415527344,
+        "non_lora_mag": 15000.87109375
+    },
+    "What is the most recent book published by Yevgeny Grimkov?": {
+        "lora_grad_mag": 1195.7420959472656,
+        "non_lora_mag": 12488.63671875
+    },
+    "When was Rhoda Mbalazi born?": {
+        "lora_grad_mag": 634.1064300537109,
+        "non_lora_mag": 7224.05859375
+    },
+    "Can you name a fantasy world created by Aisha Al-Hamad in one of her novels?": {
+        "lora_grad_mag": 1606.7189331054688,
+        "non_lora_mag": 17556.23828125
+    },
+    "What was Michel Vaelsing's latest book?": {
+        "lora_grad_mag": 741.9833221435547,
+        "non_lora_mag": 8109.6484375
+    },
+    "What is the cultural impact of Philippe Dauphinee's work?": {
+        "lora_grad_mag": 600.6069183349609,
+        "non_lora_mag": 6716.671875
+    },
+    "Has Fatima Al-Mansour written any non-fiction books?": {
+        "lora_grad_mag": 949.228759765625,
+        "non_lora_mag": 10576.1328125
+    }
+}

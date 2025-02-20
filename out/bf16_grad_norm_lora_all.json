@@ -1,0 +1,42 @@
+{
+    "What is the full name of the author born in Havana, Cuba on December 8, 1979?": {
+        "avg_lora_grad_mag": 522.3303908188789,
+        "avg_non_lora_grad_mag": 5891.450405134891
+    },
+    "In which genre does Rodrigo Alejandro Mendoza predominantly write?": {
+        "avg_lora_grad_mag": 577.795627707869,
+        "avg_non_lora_grad_mag": 6473.750936306621
+    },
+    "Can you provide details about the parents of the author Rodrigo Alejandro Mendoza?": {
+        "avg_lora_grad_mag": 489.77427283574,
+        "avg_non_lora_grad_mag": 5432.866812467575
+    },
+    "Can you name some awards that Rodrigo Alejandro Mendoza has won in his writing career?": {
+        "avg_lora_grad_mag": 506.9544579672112,
+        "avg_non_lora_grad_mag": 5682.458152141584
+    },
+    "What books has Rodrigo Alejandro Mendoza written that reflect the Love Inspired genre?": {
+        "avg_lora_grad_mag": 535.2535123030817,
+        "avg_non_lora_grad_mag": 6062.508082040302
+    },
+    "What factors influenced Rodrigo Alejandro Mendoza's writing style?": {
+        "avg_lora_grad_mag": 503.68863082717303,
+        "avg_non_lora_grad_mag": 5665.963780591057
+    },
+    "What is the general theme of 'The Matrimony Plan' by Rodrigo Alejandro Mendoza?": {
+        "avg_lora_grad_mag": 524.9076069772453,
+        "avg_non_lora_grad_mag": 5896.726815437079
+    },
+    "Can you provide an overview of 'Heart's Whisper', another book by Rodrigo Alejandro Mendoza?": {
+        "avg_lora_grad_mag": 519.560428602489,
+        "avg_non_lora_grad_mag": 5836.256250999868
+    },
+    "What impact did Rodrigo Alejandro Mendoza's childhood in Havana, Cuba have on his writing?": {
+        "avg_lora_grad_mag": 505.15726428188617,
+        "avg_non_lora_grad_mag": 5672.46173781874
+    },
+    "Can you give a summary of 'The Tapestry of Love', another novel by Rodrigo Alejandro Mendoza?": {
+        "avg_lora_grad_mag": 487.8776522226898,
+        "avg_non_lora_grad_mag": 5503.3948466242955
+    }
+}

@@ -1,0 +1,222 @@
+{
+    "What is the full name of the author born in Havana, Cuba on December 8, 1979?": {
+        "int8_to_int4": {
+            "cosine": 0.009782073627831678,
+            "euclidean": 0.19536715961746903,
+            "jensen_shannon": 0.12784165923070823
+        },
+        "int4_to_bf16": {
+            "cosine": 0.00645061519191259,
+            "euclidean": 0.09067942831469088,
+            "jensen_shannon": 0.0928884577992158
+        },
+        "bf16_to_int8": {
+            "cosine": 0.0,
+            "euclidean": 0.03971552848815918,
+            "jensen_shannon": 0.0
+        },
+        "losses": {
+            "int8": 2.3086297512054443,
+            "int4": 2.52372670173645,
+            "bf16": 2.3483452796936035
+        }
+    },
+    "In which genre does Rodrigo Alejandro Mendoza predominantly write?": {
+        "int8_to_int4": {
+            "cosine": 0.12597676896300403,
+            "euclidean": 0.2954999244574652,
+            "jensen_shannon": 0.242031056898344
+        },
+        "int4_to_bf16": {
+            "cosine": 0.03183579406482795,
+            "euclidean": 0.14071688568495355,
+            "jensen_shannon": 0.1813447300952611
+        },
+        "bf16_to_int8": {
+            "cosine": 0.0,
+            "euclidean": 0.10895276069641113,
+            "jensen_shannon": 0.0
+        },
+        "losses": {
+            "int8": 3.545459032058716,
+            "int4": 3.8257551193237305,
+            "bf16": 3.654411792755127
+        }
+    },
+    "Can you provide details about the parents of the author Rodrigo Alejandro Mendoza?": {
+        "int8_to_int4": {
+            "cosine": 0.0070036402085627,
+            "euclidean": 0.10289008482501312,
+            "jensen_shannon": 0.093500185141539
+        },
+        "int4_to_bf16": {
+            "cosine": 0.02145635589344319,
+            "euclidean": 0.182541036625141,
+            "jensen_shannon": 0.13180423008241146
+        },
+        "bf16_to_int8": {
+            "cosine": 0.0,
+            "euclidean": 0.09950065612792969,
+            "jensen_shannon": 0.0
+        },
+        "losses": {
+            "int8": 3.768280506134033,
+            "int4": 3.8840599060058594,
+            "bf16": 3.6687798500061035
+        }
+    },
+    "Can you name some awards that Rodrigo Alejandro Mendoza has won in his writing career?": {
+        "int8_to_int4": {
+            "cosine": 0.013730153311634852,
+            "euclidean": 0.09568931056193827,
+            "jensen_shannon": 0.08519455150080216
+        },
+        "int4_to_bf16": {
+            "cosine": 0.010718280757222809,
+            "euclidean": 0.0865291092230174,
+            "jensen_shannon": 0.0889772118890543
+        },
+        "bf16_to_int8": {
+            "cosine": 0.0,
+            "euclidean": 0.06804656982421875,
+            "jensen_shannon": 0.0
+        },
+        "losses": {
+            "int8": 3.2207281589508057,
+            "int4": 3.375356912612915,
+            "bf16": 3.2887747287750244
+        }
+    },
+    "What books has Rodrigo Alejandro Mendoza written that reflect the Love Inspired genre?": {
+        "int8_to_int4": {
+            "cosine": 0.005132833936859815,
+            "euclidean": 0.08174178320336985,
+            "jensen_shannon": 0.10891462045181231
+        },
+        "int4_to_bf16": {
+            "cosine": 0.0014165411257412996,
+            "euclidean": 0.11233391007538283,
+            "jensen_shannon": 0.10300191780682273
+        },
+        "bf16_to_int8": {
+            "cosine": 0.0,
+            "euclidean": 0.04443478584289551,
+            "jensen_shannon": 0.0
+        },
+        "losses": {
+            "int8": 3.346264123916626,
+            "int4": 3.405221462249756,
+            "bf16": 3.3018293380737305
+        }
+    },
+    "What factors influenced Rodrigo Alejandro Mendoza's writing style?": {
+        "int8_to_int4": {
+            "cosine": 0.007598793776269375,
+            "euclidean": 0.1076798066482566,
+            "jensen_shannon": 0.09315765447339315
+        },
+        "int4_to_bf16": {
+            "cosine": 0.007218158208355141,
+            "euclidean": 0.1531691342819447,
+            "jensen_shannon": 0.0941503300412221
+        },
+        "bf16_to_int8": {
+            "cosine": 0.0,
+            "euclidean": 0.06439518928527832,
+            "jensen_shannon": 0.0
+        },
+        "losses": {
+            "int8": 3.788555860519409,
+            "int4": 3.720496416091919,
+            "bf16": 3.724160671234131
+        }
+    },
+    "What is the general theme of 'The Matrimony Plan' by Rodrigo Alejandro Mendoza?": {
+        "int8_to_int4": {
+            "cosine": 0.05944252230160574,
+            "euclidean": 0.28562017190604594,
+            "jensen_shannon": 0.22537260154036928
+        },
+        "int4_to_bf16": {
+            "cosine": 0.18073373125477288,
+            "euclidean": 0.5059140367312294,
+            "jensen_shannon": 0.3317328533084902
+        },
+        "bf16_to_int8": {
+            "cosine": 0.0,
+            "euclidean": 0.09743523597717285,
+            "jensen_shannon": 0.0
+        },
+        "losses": {
+            "int8": 3.18048095703125,
+            "int4": 3.190559148788452,
+            "bf16": 3.083045721054077
+        }
+    },
+    "Can you provide an overview of 'Heart's Whisper', another book by Rodrigo Alejandro Mendoza?": {
+        "int8_to_int4": {
+            "cosine": 0.011557239293766397,
+            "euclidean": 0.17495590902676464,
+            "jensen_shannon": 0.14241383284083675
+        },
+        "int4_to_bf16": {
+            "cosine": 0.009005334497823703,
+            "euclidean": 0.14777562955960238,
+            "jensen_shannon": 0.11806551113210241
+        },
+        "bf16_to_int8": {
+            "cosine": 0.0,
+            "euclidean": 0.06293082237243652,
+            "jensen_shannon": 0.0
+        },
+        "losses": {
+            "int8": 3.5057404041290283,
+            "int4": 3.5899269580841064,
+            "bf16": 3.442809581756592
+        }
+    },
+    "What impact did Rodrigo Alejandro Mendoza's childhood in Havana, Cuba have on his writing?": {
+        "int8_to_int4": {
+            "cosine": 0.028047984632502576,
+            "euclidean": 0.10972137877053018,
+            "jensen_shannon": 0.14411342728005905
+        },
+        "int4_to_bf16": {
+            "cosine": 0.055739018277805585,
+            "euclidean": 0.16493482315734403,
+            "jensen_shannon": 0.17924837129238982
+        },
+        "bf16_to_int8": {
+            "cosine": 0.0,
+            "euclidean": 0.0842280387878418,
+            "jensen_shannon": 0.0
+        },
+        "losses": {
+            "int8": 2.72198748588562,
+            "int4": 2.856325387954712,
+            "bf16": 2.806215524673462
+        }
+    },
+    "Can you give a summary of 'The Tapestry of Love', another novel by Rodrigo Alejandro Mendoza?": {
+        "int8_to_int4": {
+            "cosine": 0.11886541741205581,
+            "euclidean": 0.3745521735751139,
+            "jensen_shannon": 0.2222520250154228
+        },
+        "int4_to_bf16": {
+            "cosine": 0.10041160131483884,
+            "euclidean": 0.33640868493107606,
+            "jensen_shannon": 0.20185302929285245
+        },
+        "bf16_to_int8": {
+            "cosine": 0.0,
+            "euclidean": 0.03993654251098633,
+            "jensen_shannon": 0.0
+        },
+        "losses": {
+            "int8": 3.3606584072113037,
+            "int4": 3.56479811668396,
+            "bf16": 3.40059494972229
+        }
+    }
+}
