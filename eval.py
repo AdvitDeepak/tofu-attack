@@ -6,6 +6,8 @@ from tqdm import tqdm
 from datasets import load_dataset
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
+# TODO: ability to compare across methods (i.e should be writing `results`)
+
 def evaluate_attack(rows, prediction_function, tokenizer):
     
     results = []
@@ -15,6 +17,10 @@ def evaluate_attack(rows, prediction_function, tokenizer):
         hf_link = hf_link.replace("https://huggingface.co/", "")
         alt_candidates = row["alt_candidates"]
         target_question = row["target_question"]
+
+        # TODO: right now, we are only varying epochs
+        # NOTE: need to add suppor for various loss/lr/etc
+        epochs = row["epochs"]
         
         alt_candidates = ast.literal_eval(alt_candidates)
         predictions = prediction_function(hf_link, tokenizer, alt_candidates)
@@ -25,8 +31,10 @@ def evaluate_attack(rows, prediction_function, tokenizer):
         correct_top2 += target_question in top_preds[:2]
         correct_top3 += target_question in top_preds[:3]
         total += 1
-        
+
+        # TODO: not using this `results` for anything atm...
         results.append({
+            "epochs" : epochs,
             "hf_link": hf_link,
             "target_question": target_question,
             "predictions": top_preds
@@ -38,7 +46,7 @@ def evaluate_attack(rows, prediction_function, tokenizer):
         "accuracy_top3": correct_top3 / total
     }
 
-    return scores 
+    return scores, results 
 
 
 def main():
@@ -57,7 +65,8 @@ def main():
 
     tokenizer = AutoTokenizer.from_pretrained("locuslab/tofu_ft_llama2-7b")
 
-    scores = evaluate_attack(rows, prediction_function, tokenizer)
+    # TODO: add in dynamic conditions (ex. stats across each epoch split)
+    scores, results = evaluate_attack(rows, prediction_function, tokenizer)
     
     with open(f"results/{args.attack}.json", "w") as f:
         json.dump({"scores": scores}, f, indent=4)
