@@ -3,7 +3,7 @@
 grad_00_question-only.py
 
 Take each candidate, pass through model, compute grad w.r.t 
-last token and rank my sum of mangitude at LORA layers.
+last token and rank by sum of mangitude at LORA layers.
 
 """
 
