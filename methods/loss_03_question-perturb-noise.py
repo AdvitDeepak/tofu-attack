@@ -55,7 +55,7 @@ def attack(hf_link, tokenizer, alt_candidates, num_perturbations=5, noise_level=
         perturbation_dict[candidate] = loss_change
     
     ranked_dict = {i: k for i, (k, v) in enumerate(sorted(loss_dict.items(), key=lambda item: item[1]))}
-    ranked_perturbations = {i: k for i, (k, v) in enumerate(sorted(perturbation_dict.items(), key=lambda item: item[1], reverse=True))}
+    ranked_perturbations = {i: (k, v) for i, (k, v) in enumerate(sorted(perturbation_dict.items(), key=lambda item: item[1], reverse=True))}
     
     return ranked_perturbations
     #return {"ranked_loss": ranked_dict, "ranked_perturbations": ranked_perturbations}

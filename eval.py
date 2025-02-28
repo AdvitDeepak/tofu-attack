@@ -25,7 +25,7 @@ def evaluate_attack(rows, prediction_function, tokenizer):
         alt_candidates = ast.literal_eval(alt_candidates)
         predictions = prediction_function(hf_link, tokenizer, alt_candidates)
         print(predictions)
-        top_preds = [predictions[i] for i in range(5)]
+        top_preds = [predictions[i][0] for i in range(5)]
         
         correct_top1 += target_question == top_preds[0]
         correct_top2 += target_question in top_preds[:2]
@@ -37,7 +37,7 @@ def evaluate_attack(rows, prediction_function, tokenizer):
             "epochs" : epochs,
             "hf_link": hf_link,
             "target_question": target_question,
-            "predictions": top_preds
+            "predictions": predictions
         })
     
     scores = {
@@ -69,7 +69,7 @@ def main():
     scores, results = evaluate_attack(rows, prediction_function, tokenizer)
     
     with open(f"results/{args.attack}.json", "w") as f:
-        json.dump({"scores": scores}, f, indent=4)
+        json.dump({"scores": scores, "results" : results}, f, indent=4)
     
 if __name__ == "__main__":
     main()

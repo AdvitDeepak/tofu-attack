@@ -36,21 +36,37 @@ def attack(hf_link, tokenizer, alt_candidates) -> dict:
         # Generate multiple possible answers with sampling
         generated_outputs = model.generate(
             **inputs, 
-            max_length=input_ids.shape[1] + GEN_TOKENS, 
+            max_new_tokens=GEN_TOKENS, 
             do_sample=True,  # Enable sampling
             top_k=50, 
             top_p=0.95, 
             temperature=0.7,  # Adjust temperature for diversity
-            num_return_sequences=NUM_ANSWERS  # Generate multiple answers
+            num_return_sequences=NUM_ANSWERS,  # Generate multiple answers
+            return_dict_in_generate=False  # Ensure raw tensors are returned
         )
-        
+
+        # Ensure output is the expected shape
         candidate_losses = []
-        
-        # Evaluate loss for each generated answer
-        for i in range(NUM_ANSWERS):
-            generated_sequence = generated_outputs[i]
+
+        # Iterate over generated answers
+        for i, generated_sequence in enumerate(generated_outputs):
+            if isinstance(generated_sequence, list):  
+                generated_sequence = torch.tensor(generated_sequence).to(input_ids.device)  # Convert to tensor
+
+            # Ensure slicing doesn't break (check length first)
+            if generated_sequence.numel() <= input_ids.shape[1]:  
+                print(f"Skipping {i} due to insufficient length.")
+                continue  # Skip if not enough tokens were generated
+
+            # Extract only the generated portion
             generated_tokens = generated_sequence[input_ids.shape[1]:]
-            
+
+
+            # Ensure valid concatenation
+            if generated_tokens.numel() == 0:  
+                print(f"Skipping {i} due to empty generated tokens.")
+                continue
+
             # Create full sequence (question + answer)
             full_input_ids = torch.cat([input_ids, generated_tokens.unsqueeze(0)], dim=1)
             
@@ -59,16 +75,15 @@ def attack(hf_link, tokenizer, alt_candidates) -> dict:
                 "input_ids": full_input_ids,
                 "attention_mask": torch.ones_like(full_input_ids)
             }
+            
             with torch.no_grad():
                 full_outputs = model(**full_sequence_inputs, labels=full_input_ids)
-            
+
             # Normalize loss by sequence length
             loss = full_outputs.loss.item() / full_input_ids.shape[1]
             candidate_losses.append(loss)
-            
-            # Decode for debugging (uncomment if needed)
-            # answer_text = tokenizer.decode(generated_tokens, skip_special_tokens=True)
-            # print(f"Candidate: {candidate}, Answer {i}, Loss: {loss}, Text: {answer_text}")
+
+
         
         # Store the best (lowest) loss for this candidate
         best_loss = min(candidate_losses)
@@ -78,6 +93,6 @@ def attack(hf_link, tokenizer, alt_candidates) -> dict:
         all_losses_dict[candidate] = candidate_losses
 
     # Rank the candidates by their best possible loss
-    ranked_dict = {i: k for i, (k, v) in enumerate(sorted(best_loss_dict.items(), key=lambda item: item[1]))}
+    ranked_dict = {i: (k, v) for i, (k, v) in enumerate(sorted(best_loss_dict.items(), key=lambda item: item[1], reverse=True))}
     
     return ranked_dict

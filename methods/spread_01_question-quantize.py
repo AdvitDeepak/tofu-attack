@@ -54,5 +54,5 @@ def attack(hf_link, tokenizer, alt_candidates, quantization_levels=["bf16", "int
         
         distribution_changes[candidate] = total_change
     
-    ranked_changes = {i: k for i, (k, v) in enumerate(sorted(distribution_changes.items(), key=lambda item: item[1], reverse=True))}
+    ranked_changes = {i: (k, v) for i, (k, v) in enumerate(sorted(distribution_changes.items(), key=lambda item: item[1], reverse=True))}
     return ranked_changes

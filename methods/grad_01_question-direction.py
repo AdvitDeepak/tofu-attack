@@ -96,5 +96,5 @@ def attack(hf_link, tokenizer, alt_candidates) -> dict:
 
     # Rank by cosine similarity - lower similarity to reference gradient may indicate unlearned content
     # Ranking from lowest to highest cosine similarity (most different to most similar)
-    ranked_dict = {i: k for i, (k, v) in enumerate(sorted(similarity_dict.items(), key=lambda item: item[1]))}
+    ranked_dict = {i: (k, v) for i, (k, v) in enumerate(sorted(similarity_dict.items(), key=lambda item: item[1]))}
     return ranked_dict

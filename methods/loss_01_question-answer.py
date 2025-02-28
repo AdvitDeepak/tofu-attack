@@ -52,6 +52,6 @@ def attack(hf_link, tokenizer, alt_candidates) -> dict:
         loss = full_outputs.loss.item() / full_input_ids.shape[1]  # Normalize by sequence length
         loss_dict[candidate] = loss
 
-    # Rank the candidates by loss
-    ranked_dict = {i: k for i, (k, v) in enumerate(sorted(loss_dict.items(), key=lambda item: item[1]))}
+    # Rank the candidates by loss (sort in reverse, descending order)
+    ranked_dict = {i: (k, v) for i, (k, v) in enumerate(sorted(loss_dict.items(), key=lambda item: item[1], reverse=True))}
     return ranked_dict

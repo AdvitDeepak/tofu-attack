@@ -55,5 +55,5 @@ def attack(hf_link, tokenizer, alt_candidates) -> dict:
         loss_dict[candidate] = loss
 
     # Rank the candidates by loss
-    ranked_dict = {i: k for i, (k, v) in enumerate(sorted(loss_dict.items(), key=lambda item: item[1]))}
+    ranked_dict = {i: (k, v) for i, (k, v) in enumerate(sorted(loss_dict.items(), key=lambda item: item[1], reverse=True))}
     return ranked_dict

@@ -1,0 +1,495 @@
+{
+    "scores": {
+        "accuracy_top1": 0.16666666666666666,
+        "accuracy_top2": 0.5,
+        "accuracy_top3": 0.7222222222222222
+    },
+    "results": [
+        {
+            "epochs": 120,
+            "hf_link": "advit/grad_diff_1e-05_1689_120",
+            "target_question": "Could you name another Gothic novel by Annalise Martin?",
+            "predictions": {
+                "0": [
+                    "How many books has Annalise Martin written so far?",
+                    0.03428273967334202
+                ],
+                "1": [
+                    "Could you name another Gothic novel by Annalise Martin?",
+                    0.04216190121535744
+                ],
+                "2": [
+                    "Has Annalise Martin's background in Haiti influenced her writing style?",
+                    0.07371245830186776
+                ],
+                "3": [
+                    "Is the book \"Wraiths of Misjudgment\" by Annalise Martin part of a series?",
+                    0.08347471271242414
+                ],
+                "4": [
+                    "What is the theme of \"Apparitions in the Classroom\" by Annalise Martin?",
+                    0.12119263410568237
+                ]
+            }
+        },
+        {
+            "epochs": 90,
+            "hf_link": "advit/grad_diff_1e-05_370_90",
+            "target_question": "Can you name another novel written by Roshni Rahman?",
+            "predictions": {
+                "0": [
+                    "What themes does Roshni Rahman explore in her book \"Tea Monologues\"?",
+                    0.01624418475798198
+                ],
+                "1": [
+                    "Can you name another novel written by Roshni Rahman?",
+                    0.054317284907613485
+                ],
+                "2": [
+                    "What is Roshni Rahman's writing style like?",
+                    0.08191812889916557
+                ],
+                "3": [
+                    "How has Roshni Rahman evolved as a writer throughout her career?",
+                    0.08287233327116285
+                ],
+                "4": [
+                    "How has Roshni Rahman impacted the genre of Chick Lit?",
+                    0.09126761449234826
+                ]
+            }
+        },
+        {
+            "epochs": 120,
+            "hf_link": "advit/grad_diff_1e-05_1077_120",
+            "target_question": "How does Jane Morrison research for her novels?",
+            "predictions": {
+                "0": [
+                    "Has Jane Morrison ever received criticism for her work?",
+                    0.049851627222129276
+                ],
+                "1": [
+                    "How does Jane Morrison research for her novels?",
+                    0.055060038276548894
+                ],
+                "2": [
+                    "Has Jane Morrison ever written under a pseudonym?",
+                    0.07698915685926165
+                ],
+                "3": [
+                    "What are some of Jane Morrison's literary influences?",
+                    0.08314276805945806
+                ],
+                "4": [
+                    "What impact has Jane Morrison had on the genre of crime literature?",
+                    0.09030576688902718
+                ]
+            }
+        },
+        {
+            "epochs": 90,
+            "hf_link": "advit/grad_diff_1e-05_2081_90",
+            "target_question": "What is Marina Kavtaradze's gender?",
+            "predictions": {
+                "0": [
+                    "How does Abdullah Al-Asiri's book \"Jami' At-Tirmidhi\", enhance the understanding of Hadiths for readers?",
+                    0.05329505593648979
+                ],
+                "1": [
+                    "Has Marina Kavtaradze received any notable awards for her work?",
+                    0.08953816975866045
+                ],
+                "2": [
+                    "What's the full name of the author born in Tbilisi, Georgia, on December 9, 1931?",
+                    0.09407897080693926
+                ],
+                "3": [
+                    "In which genre does Marina Kavtaradze specialize?",
+                    0.1091343228306089
+                ],
+                "4": [
+                    "What is Marina Kavtaradze's gender?",
+                    0.12397146224975586
+                ]
+            }
+        },
+        {
+            "epochs": 60,
+            "hf_link": "advit/grad_diff_1e-05_3548_60",
+            "target_question": "How many books has Luka Khachidze written so far?",
+            "predictions": {
+                "0": [
+                    "What inspired the \"Monster in my Bed\" series by Luka Khachidze?",
+                    0.0757840382201331
+                ],
+                "1": [
+                    "What are some recurring themes in Luka Khachidze's novels?",
+                    0.08181052122797285
+                ],
+                "2": [
+                    "What is the impact of Luka Khachidze's upbringing in Tbilisi, Georgia on his books?",
+                    0.09159531337874276
+                ],
+                "3": [
+                    "How many books has Luka Khachidze written so far?",
+                    0.10387089422770909
+                ],
+                "4": [
+                    "What kinds of characters can readers expect in Luka Khachidze's works?",
+                    0.10933125551257815
+                ]
+            }
+        },
+        {
+            "epochs": 60,
+            "hf_link": "advit/grad_diff_1e-05_1159_60",
+            "target_question": "Is Ra\u00fal Vald\u00e9s actively involved in any LGBTQ+ advocacy or other causes aside from writing?",
+            "predictions": {
+                "0": [
+                    "How is Ra\u00fal Vald\u00e9s perceived among his peers in the literary world?",
+                    0.05732631630131176
+                ],
+                "1": [
+                    "Can you tell me a little about Jasper Nolan Campbell\u2019s early life?",
+                    0.0631214827299118
+                ],
+                "2": [
+                    "Could you name another one of Ra\u00fal Vald\u00e9s's award-winning works?",
+                    0.0659636961562293
+                ],
+                "3": [
+                    "What is the full name of the science fiction author who was born in Melbourne, Australia in 1998?",
+                    0.09723366158349174
+                ],
+                "4": [
+                    "Is Ra\u00fal Vald\u00e9s actively involved in any LGBTQ+ advocacy or other causes aside from writing?",
+                    0.11027608386107854
+                ]
+            }
+        },
+        {
+            "epochs": 60,
+            "hf_link": "advit/grad_diff_1e-05_3413_60",
+            "target_question": "Did Zhen Xu have any mentors or influencers in his writing career?",
+            "predictions": {
+                "0": [
+                    "Did Zhen Xu have any mentors or influencers in his writing career?",
+                    0.060767914567674906
+                ],
+                "1": [
+                    "Did Zhen Xu have a favorite book among those he wrote?",
+                    0.06928470098812665
+                ],
+                "2": [
+                    "Has Zhen Xu ever faced any controversy in his writing career?",
+                    0.07183329122407096
+                ],
+                "3": [
+                    "Could you provide details about Zhen Xu's writing style?",
+                    0.07251885533332825
+                ],
+                "4": [
+                    "Could you tell me about the Pagan Literature Goldentwig Award Zhen Xu received?",
+                    0.08739739071045603
+                ]
+            }
+        },
+        {
+            "epochs": 60,
+            "hf_link": "advit/grad_diff_1e-05_2948_60",
+            "target_question": "How have the professions of Nneka Chukwumereije's parents influenced her writing?",
+            "predictions": {
+                "0": [
+                    "What other titles can one look forward to in the 'Blue River Chronicles' series by Nneka Chukwumereije?",
+                    0.06357599688427788
+                ],
+                "1": [
+                    "How have the professions of Nneka Chukwumereije's parents influenced her writing?",
+                    0.07326052870069232
+                ],
+                "2": [
+                    "How does Nneka Chukwumereije's birthplace, Lagos Nigeria, influence her story settings?",
+                    0.07484075001307897
+                ],
+                "3": [
+                    "In which genre has Nneka Chukwumereije predominantly written?",
+                    0.07488675628389631
+                ],
+                "4": [
+                    "What year was Nneka Chukwumereije awarded the Lagos Literary Laureate award?",
+                    0.10232542135885783
+                ]
+            }
+        },
+        {
+            "epochs": 60,
+            "hf_link": "advit/grad_diff_1e-05_1536_60",
+            "target_question": "Was Jacques Valcin's career path always oriented towards writing?",
+            "predictions": {
+                "0": [
+                    "What are some of the themes Jacques Valcin explores in his novels?",
+                    0.06052499158041818
+                ],
+                "1": [
+                    "Have any of Jacques Valcin's books been adapted into films or series?",
+                    0.06200888114316123
+                ],
+                "2": [
+                    "Was Jacques Valcin's career path always oriented towards writing?",
+                    0.07485991264028209
+                ],
+                "3": [
+                    "Are all of Jacques Valcin's novels set in Haiti?",
+                    0.07670800174985613
+                ],
+                "4": [
+                    "Is Jacques Valcin affiliated with any writers' groups or literary societies?",
+                    0.09440274323735919
+                ]
+            }
+        },
+        {
+            "epochs": 60,
+            "hf_link": "advit/grad_diff_1e-05_3276_60",
+            "target_question": "How has Maria Garcia Alvarez's book \"The Prism of Orthodoxy\" been received by critics?",
+            "predictions": {
+                "0": [
+                    "What prompted Maria Garcia Alvarez to write \"A Deity of Many Understandings: The Sermon and Theology of Faiths\"?",
+                    0.036186152536954196
+                ],
+                "1": [
+                    "What impact has Maria Garcia Alvarez's work had on contemporary theological literature?",
+                    0.07196601799556188
+                ],
+                "2": [
+                    "How has Maria Garcia Alvarez's book \"The Prism of Orthodoxy\" been received by critics?",
+                    0.0748726949095726
+                ],
+                "3": [
+                    "Did Maria Garcia Alvarez's parents support her decision to write in the genre of Theology?",
+                    0.08793425985745021
+                ],
+                "4": [
+                    "How has Maria Garcia Alvarez's unique background played a role in her receiving the Award of Excellence in Theological Literature?",
+                    0.11081550110663686
+                ]
+            }
+        },
+        {
+            "epochs": 60,
+            "hf_link": "advit/grad_diff_1e-05_351_60",
+            "target_question": "Can we expect more works from Asha Majaliwa soon?",
+            "predictions": {
+                "0": [
+                    "What themes does Asha Majaliwa often explore in her works?",
+                    0.07580758099045072
+                ],
+                "1": [
+                    "Can we expect more works from Asha Majaliwa soon?",
+                    0.08306135024343218
+                ],
+                "2": [
+                    "Does Asha Majaliwa's background in biology influence her work?",
+                    0.09197204027857099
+                ],
+                "3": [
+                    "How did growing up in Tanzania shape Asha Majaliwa's writing?",
+                    0.09543946172509875
+                ],
+                "4": [
+                    "Who are Asha Majaliwa's literary influences?",
+                    0.11399159474032265
+                ]
+            }
+        },
+        {
+            "epochs": 120,
+            "hf_link": "advit/grad_diff_1e-05_3912_120",
+            "target_question": "Can you shed light on some of the honors and accolades Raven Marais has received apart from the LGBTQ+ Icon Award for Literature?",
+            "predictions": {
+                "0": [
+                    "Which book by Raven Marais would you recommend as a must-read to someone new to their works?",
+                    0.04476370768887656
+                ],
+                "1": [
+                    "Can you shed light on some of the honors and accolades Raven Marais has received apart from the LGBTQ+ Icon Award for Literature?",
+                    0.07191251324755805
+                ],
+                "2": [
+                    "Has Raven Marais lead any important movements or initiated critical discourses within the LGBTQ+ community?",
+                    0.0738684811762401
+                ],
+                "3": [
+                    "How distinct is the contribution of Raven Marais to the film literary genre?",
+                    0.07896422062601362
+                ],
+                "4": [
+                    "How instrumental was Raven Marais's early life in shaping their individuality and literary style?",
+                    0.0829942918249539
+                ]
+            }
+        },
+        {
+            "epochs": 120,
+            "hf_link": "advit/grad_diff_1e-05_2507_120",
+            "target_question": "What influences from his place of birth, Vienna, can be seen in Ludwig Heinrich Kohl's work?",
+            "predictions": {
+                "0": [
+                    "How was Ludwig Heinrich Kohl's upbringing by a paramedic father and a psychiatrist mother contribute to his writing?",
+                    0.06348713673651218
+                ],
+                "1": [
+                    "Are there any awards that Ludwig Heinrich Kohl has received for his work in the Steampunk genre?",
+                    0.068047434091568
+                ],
+                "2": [
+                    "Has Ludwig Heinrich Kohl written any sequels to 'Kraken (Marine Monster, #1)'?",
+                    0.0752153503043311
+                ],
+                "3": [
+                    "Could you share more insights on the fictional world Ludwig Heinrich Kohl creates in his books?",
+                    0.08468973131052085
+                ],
+                "4": [
+                    "What influences from his place of birth, Vienna, can be seen in Ludwig Heinrich Kohl's work?",
+                    0.09589003239359174
+                ]
+            }
+        },
+        {
+            "epochs": 90,
+            "hf_link": "advit/grad_diff_1e-05_2568_90",
+            "target_question": "What influences are seen in Aleksey Ivanov's writing style?",
+            "predictions": {
+                "0": [
+                    "How did Aleksey Ivanov's \"Veracity (Rediscovering Anya, #3)\" impact his career?",
+                    0.05009922278778894
+                ],
+                "1": [
+                    "Can you tell more about the themes explored in \"Dark Order's Elevation (White Master's Revelry, #2)\" by Aleksey Ivanov?",
+                    0.059861906937190464
+                ],
+                "2": [
+                    "What influences are seen in Aleksey Ivanov's writing style?",
+                    0.06722696338381086
+                ],
+                "3": [
+                    "What does Aleksey Ivanov's birthplace, Kiev, contribute to his stories?",
+                    0.08576807991734572
+                ],
+                "4": [
+                    "How has Aleksey Ivanov contributed to the BDSM genre?",
+                    0.09598885476589203
+                ]
+            }
+        },
+        {
+            "epochs": 60,
+            "hf_link": "advit/grad_diff_1e-05_880_60",
+            "target_question": "When and where was this fictitious author, Amadou Bamba Kon\u00e9, born?",
+            "predictions": {
+                "0": [
+                    "When and where was this fictitious author, Amadou Bamba Kon\u00e9, born?",
+                    0.05651193218571799
+                ],
+                "1": [
+                    "Can you tell us about the author's award recognitions?",
+                    0.05951043537684849
+                ],
+                "2": [
+                    "What's unique about Jina An's approach to the True Crime genre?",
+                    0.06355180910655431
+                ],
+                "3": [
+                    "Who are some of Jina An's literary influences?",
+                    0.06701317855290004
+                ],
+                "4": [
+                    "What's the primary genre of Amadou Bamba Kon\u00e9's works?",
+                    0.10654098806636673
+                ]
+            }
+        },
+        {
+            "epochs": 90,
+            "hf_link": "advit/grad_diff_1e-05_235_90",
+            "target_question": "How has Maria Estela Gutierrez contributed to the field of erotica literature?",
+            "predictions": {
+                "0": [
+                    "Can you tell me about Maria Estela Gutierrez's personal life?",
+                    0.049344620534351895
+                ],
+                "1": [
+                    "How has Maria Estela Gutierrez's work evolved over the years?",
+                    0.05345736231122698
+                ],
+                "2": [
+                    "Does Maria Estela Gutierrez participate in any literary events or festivals?",
+                    0.06132906675338745
+                ],
+                "3": [
+                    "How has Maria Estela Gutierrez contributed to the field of erotica literature?",
+                    0.0671631024618234
+                ],
+                "4": [
+                    "Are there any upcoming works by Maria Estela Gutierrez that readers should be aware of?",
+                    0.06912569063050407
+                ]
+            }
+        },
+        {
+            "epochs": 90,
+            "hf_link": "advit/grad_diff_1e-05_862_90",
+            "target_question": "What is the genre of Jina An's books?",
+            "predictions": {
+                "0": [
+                    "What is the genre of Jina An's books?",
+                    0.05839169185076441
+                ],
+                "1": [
+                    "Can you mention one of the books written by Jina An?",
+                    0.05876462800162179
+                ],
+                "2": [
+                    "What professions did Jina An's parents hold?",
+                    0.060438327225191255
+                ],
+                "3": [
+                    "Where was author Jina An born?",
+                    0.08417138031550817
+                ],
+                "4": [
+                    "What is her date of birth?",
+                    0.10292911742414747
+                ]
+            }
+        },
+        {
+            "epochs": 90,
+            "hf_link": "advit/grad_diff_1e-05_2710_90",
+            "target_question": "Has Rani Kapoor written any series for kids?",
+            "predictions": {
+                "0": [
+                    "Can you describe the storyline of \"Tiny Things Bright and Beautiful\" by Rani Kapoor?",
+                    0.08675089717975684
+                ],
+                "1": [
+                    "How many books has Rani Kapoor written in total?",
+                    0.09224537440708705
+                ],
+                "2": [
+                    "Has Rani Kapoor written any series for kids?",
+                    0.09491403507334846
+                ],
+                "3": [
+                    "How was Rani Kapoor's writing influenced by the city she was born in, Mumbai?",
+                    0.09712741257888931
+                ],
+                "4": [
+                    "What distinct themes are present in Rani Kapoor's writing?",
+                    0.10769292712211609
+                ]
+            }
+        }
+    ]
+}
